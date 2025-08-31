@@ -8,3 +8,6 @@ installed all dependencies
 
 august 29, 2025
 added the assets and other stuff necessary for the project
+
+august 30,2025
+started nav bar component
