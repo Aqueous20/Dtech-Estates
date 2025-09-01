@@ -11,3 +11,10 @@ added the assets and other stuff necessary for the project
 
 august 30,2025
 started nav bar component
+
+september 1, 2025
+configured tailwind css
+finished navbar component 
+changed webpage icon 
+started the header component
+completed the header component
