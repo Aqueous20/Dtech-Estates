@@ -18,3 +18,4 @@ finished navbar component
 changed webpage icon 
 started the header component
 completed the header component
+completed the responsiveness and click functions of the navbar
