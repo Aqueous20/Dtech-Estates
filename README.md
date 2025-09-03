@@ -25,3 +25,10 @@ started the about comonent
 completed the about component
 started the about component responsive for devices
 completed the responsiveness for the about component
+
+september 3,2025
+start the projects component
+created the functions to change the index of the projects data
+added the functions to the left and right arrow so that when clicked they changed the index in 
+the projects data
+completed the projects component
