@@ -32,3 +32,4 @@ created the functions to change the index of the projects data
 added the functions to the left and right arrow so that when clicked they changed the index in 
 the projects data
 completed the projects component
+started the testimonials component
