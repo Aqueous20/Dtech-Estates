@@ -14,8 +14,14 @@ started nav bar component
 
 september 1, 2025
 configured tailwind css
-finished navbar component 
-changed webpage icon 
+finished navbar component
+changed webpage icon
 started the header component
 completed the header component
 completed the responsiveness and click functions of the navbar
+
+september 2,2025
+started the about comonent
+completed the about component
+started the about component responsive for devices
+completed the responsiveness for the about component

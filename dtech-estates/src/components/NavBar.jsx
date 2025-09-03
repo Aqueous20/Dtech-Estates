@@ -1,19 +1,18 @@
-import React, { useEffect, useState } from 'react'
-import {assets} from '../assets/assets'
+import React, { useEffect, useState } from "react";
+import { assets } from "../assets/assets";
 
 export const NavBar = () => {
-    const [showMobileMenu, setShowMobileMenu] = useState(false)
-    useEffect(() => {
-        if(showMobileMenu){
-            document.body.style.overflow = 'hidden'
-        }
-        else{
-            document.body.style.overflow = "auto";
-        }
-        return () => {
-            document.body.style.overflow = "auto";
-        }
-    },[showMobileMenu])
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+  useEffect(() => {
+    if (showMobileMenu) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [showMobileMenu]);
   return (
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
@@ -22,13 +21,16 @@ export const NavBar = () => {
           <a href="#Header" className="cursor-pointer hover:text-gray-400">
             Home
           </a>
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#About" className="cursor-pointer hover:text-gray-400">
             About
           </a>
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
             Projects
           </a>
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a
+            href="#Testimonials"
+            className="cursor-pointer hover:text-gray-400"
+          >
             Testimonials
           </a>
         </ul>
@@ -89,4 +91,4 @@ export const NavBar = () => {
       </div>
     </div>
   );
-}
+};
