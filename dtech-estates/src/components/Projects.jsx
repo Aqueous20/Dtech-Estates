@@ -71,7 +71,10 @@ export const Projects = () => {
           }}
         >
           {projectsData.map((project, index) => (
-            <div key={index} className="relative flex-shrink-0 w-full sm:w-1/2 lg:w-1/4">
+            <div
+              key={index}
+              className="relative flex-shrink-0 w-full sm:w-1/2 lg:w-1/4"
+            >
               <img
                 src={project.image}
                 alt="binge sake"
@@ -83,7 +86,8 @@ export const Projects = () => {
                     {project.title}
                   </h2>
                   <p className="text-gray-500 text-sm">
-                    {project.price} <span>|</span> {project.location}
+                    {project.price} <span className="px-1">|</span>{" "}
+                    {project.location}
                   </p>
                 </div>
               </div>

@@ -29,7 +29,11 @@ completed the responsiveness for the about component
 september 3,2025
 start the projects component
 created the functions to change the index of the projects data
-added the functions to the left and right arrow so that when clicked they changed the index in 
+added the functions to the left and right arrow so that when clicked they changed the index in
 the projects data
 completed the projects component
 started the testimonials component
+
+september 4,2025
+added html structure and css design to the trestimonial component
+completed the testimonial component
