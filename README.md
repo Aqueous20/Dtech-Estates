@@ -41,3 +41,4 @@ started the contact component
 added html structure and css for contatct component
 added logical and functional structure to the contact form using web3forms
 completed the contact component
+started the footer component
