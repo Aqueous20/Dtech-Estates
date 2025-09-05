@@ -42,3 +42,9 @@ added html structure and css for contatct component
 added logical and functional structure to the contact form using web3forms
 completed the contact component
 started the footer component
+
+september 5,2025 
+added the html structure and styled  using css for the footer component
+completed the footer component 
+ensured the website is fully responsive on multiple device media
+
