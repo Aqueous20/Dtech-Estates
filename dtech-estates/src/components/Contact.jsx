@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import React from "react";
 import { toast } from "react-toastify";
 
@@ -30,7 +31,14 @@ export const Contact = () => {
   };
 
   return (
-    <div className="" id="Contact">
+    <motion.div
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
+      id="Contact"
+    >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
         Contact{" "}
         <span className="underline underline-offset-4 decoration-1 under font-light">
@@ -41,7 +49,7 @@ export const Contact = () => {
         Ready to Make a Move? Let's Build Your Future Together
       </p>
       <form
-        className="max-w-2xl mx-auto text-gray-600 pt-8 mb-4"
+        className="max-w-2xl mx-auto text-gray-600 mb-4"
         onSubmit={onSubmit}
       >
         <div className="flex flex-wrap">
@@ -79,6 +87,6 @@ export const Contact = () => {
           {result ? result : "Send Message"}
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
