@@ -37,3 +37,7 @@ started the testimonials component
 september 4,2025
 added html structure and css design to the trestimonial component
 completed the testimonial component
+started the contact component
+added html structure and css for contatct component
+added logical and functional structure to the contact form using web3forms
+completed the contact component
