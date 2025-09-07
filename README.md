@@ -43,8 +43,12 @@ added logical and functional structure to the contact form using web3forms
 completed the contact component
 started the footer component
 
-september 5,2025 
-added the html structure and styled  using css for the footer component
-completed the footer component 
+september 5,2025
+added the html structure and styled using css for the footer component
+completed the footer component
 ensured the website is fully responsive on multiple device media
 
+september 6, 2025
+deployed app using firebase hosting
+link to the website is below
+https://dtech-estates.web.app
